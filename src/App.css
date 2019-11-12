@@ -1,22 +1,245 @@
-.App {
-  text-align: center;
+
+
+.job_get_logo{
+    position: absolute;
+    top: 0;
+    margin-left: 10px;
+    margin-top: 8px;
 }
 
-.App-logo {
-  height: 40vmin;
+.quick_outline_group{
+    /* position: relative; */
+    top: 0;
+    display: flex;
+    height: 42em;
+    min-height: 760px;
+    width: 100%;
+    
+    left: 0;
+    background: url("./img/team_working.jpg");
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.quick_outline{
+    position:relative;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;overflow: hidden;
+    
+}
+.quick_outline p{
+    color:#F3F9F3;
+    font-size: 36px;
+    font-weight: 700;
+    /* background-color: #444; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#team_img{
+    /* max-width:100%; */
+    width: 100%;
+    min-width: 1000px;
+    position: absolute;
+    z-index: -1;
+
+    display: inline-block;
+
 }
 
-.App-link {
-  color: #09d3ac;
+  .culture_section{
+
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      margin-top: 2em;
+    
+  }
+  .culture_section p{
+text-align: start;
+font-size: 21px;
+/* color: #F3F9F3 */
+  
+}
+.culture_section p:first-child {
+    text-align: start;
+    font-size: 21px;
+    margin-left: 15px; 
+    padding-left: 5px;
+    }
+
+  .career_section{
+      margin-top: 5em;
+      background-color:#f3f9f3;
+
+      position: relative;
+
+  }
+  .video_section{
+      margin-top: 50px;
+          padding-top: 36.25%; 
+          width:60%;
+          margin-right: auto;
+          margin-left: auto;
+  
+    position: relative;
+
+  }
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+
+  .filter_list{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 12px;
+
+  }
+  .job_Card{
+margin:10px;
+padding:2px;
+  }
+  #more_info{
+      border-top: 1px solid black;
+      padding:5px;
+      font-size: 14px;
+
+
+  }
+  #more_info:hover{
+
+    border-top: 1px solid black;
+    padding:5px;
+    color: #0277F0;
+    cursor: pointer;
+
+}
+  #location{
+      display: inline-block;
+      width: 100%;
+      text-align: start;
+  }
+  .job_list_container{
+  margin-right: auto;
+  margin-left: auto;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ margin-bottom: 10em;
+
+  }
+
+
+  #mission{
+      max-width: 900px;
+      padding: 18px;
+      margin-left: auto;
+      margin-right: auto;
+
+  }
+
+  .quick_outline > p{
+      font-size: 36px;
+      max-width: 130vh;
+      padding: 30px;
+      display: inline-block;
+      position: relative;
+      text-align: center;
+      align-self: center;
+      font-weight: lighter;
+      color:#f3f9f3;
+
+ }
+
+.career_section > p{
+    max-width: 350px;
+    text-align: center;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:15px;
+    font-weight: lighter;
+    color: #1a1718;
+    /* color: #F3F9F3 */
+}
+
+.job_list_sub{
+
+display: flex;
+flex-wrap: wrap;
+max-width: 950px;
+padding-top: 20px;
+
+justify-content: center;
+
+
+}
+
+#inner_info{
+    background-color: "black"
+}
+
+#all_postings_btn{
+    border-radius: 3px;
+    height: 50px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto ;
+    background-color: #003F80;  
+    
+
+}
+a{
+    color: #F3F9F3
+}
+#all_postings_btn:hover{
+    border-radius: 3px; 
+    background-color: #9CC8F6;   
+}
+#all_postings_btn:active{
+    border-radius: 3px;
+    height: 50px;
+    width: 175px;
+    scroll-behavior: smooth;
+
+}
+
+#modal_container{
+    width: 100%;
+    background-color:#00408071;
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    /* display: flex;*/
+}
+.job_details{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    /* min-width: 277px; */
+    color: black
+    
+
+    
+}
+
+.footer_devider{
+    background-color: rgb(241, 241, 241);
+    padding:20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
