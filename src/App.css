@@ -170,8 +170,9 @@ padding:2px;
     padding:15px;
     font-weight: lighter;
     color: #1a1718;
-    /* color: #F3F9F3 */
+    color: #F3F9F3
 }
+
 
 .job_list_sub{
 
@@ -184,7 +185,9 @@ justify-content: center;
 
 
 }
-
+.row{
+    color:black
+}
 #inner_info{
     background-color: "black"
 }
@@ -199,7 +202,7 @@ justify-content: center;
     
 
 }
-a{
+button  a{
     color: #F3F9F3
 }
 #all_postings_btn:hover{
