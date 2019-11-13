@@ -239,6 +239,19 @@ button  a{
     
 }
 
+.socials a{
+    /* display: flex; */
+    /* background-color: black; */
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #003F7F
+    /* justify-content: space-around; */
+    /* color: #0277F0;
+    align-content: center;
+    background-color: black; */
+ 
+}
+
 .footer_devider{
     background-color: rgb(241, 241, 241);
     padding:20px;

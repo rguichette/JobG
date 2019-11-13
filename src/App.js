@@ -55,7 +55,7 @@ const videoLink = "https://www.youtube.com/watch?time_continue=4&v=zDdhnNxgjsw&f
   </div>
 
   <div className="culture_section">
-    <p >Culture</p>
+    <p style={{marginLeft:"30px"}}>Culture</p>
     <p id="mission">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,</p>
 
 
